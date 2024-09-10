@@ -1,0 +1,36 @@
+.container {
+    position: fixed;
+    display: flex;
+    flex: column;
+    width: 100%;
+}
+
+.title {
+    margin-left: 2rem;
+    font-size: xx-large;
+    background-color: var(--duckGreenLight);
+    padding: .8rem;
+    padding-top: 1.5rem;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.right-content {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    right: 2rem;
+    top: 1.5rem;
+    gap: 2rem;
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+.app-button {
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.app-button:hover {
+    color: var(--appWhite)
+}

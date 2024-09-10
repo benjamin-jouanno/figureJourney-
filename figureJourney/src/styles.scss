@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+    --duckGreen: #214F4B;
+    --duckGreenLight: #2a5d59;
+    --appWhite: #FFFFFF;
+    --appYellow: #e6f3ca;
+}
+
+html {
+    color: var(--appWhite);
+    background-color: var(--duckGreen);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+}
+
+body {
+    margin: 0px ;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 800;
+    font-style: bo;
+}
+
+.app-button {
+    background-color: var(--duckGreen);
+    border-radius: 8px;
+    color: var(--appYellow);
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}

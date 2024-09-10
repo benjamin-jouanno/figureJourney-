@@ -1,0 +1,32 @@
+.centered {
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+}
+
+pre {
+    animation: looping-color 10s linear infinite;
+}
+
+@keyframes looping-color {
+    0% {
+        color: var(--appWhite);
+    }
+
+    25% {
+        color: #F87575;
+    }
+
+    50% {
+        color: #B9E6FF;
+    }
+
+    75% {
+        color: #64F58D;
+    }
+
+    100% {
+        color: var(--appWhite);
+    }
+}
